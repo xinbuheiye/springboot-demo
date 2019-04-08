@@ -15,6 +15,6 @@ public class UserController {
     @RequestMapping(value = "/",method = RequestMethod.GET)
     @ResponseBody
     public String show(){
-        return "Hello World";
+        return "Hello World!";
     }
 }
